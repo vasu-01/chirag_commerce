@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function UserRegister() {
   const navigate = useNavigate();
@@ -91,9 +92,9 @@ export default function UserRegister() {
         {/* Login Option */}
         <p className="text-sm text-center text-gray-600 mt-4">
           New User?{" "}
-          <a href="/signup" className="text-indigo-600 hover:underline">
+          <Link to="/signup" className="text-indigo-600 hover:underline">
             Sign Up
-          </a>
+          </Link>
         </p>
       </div>
     </div>
