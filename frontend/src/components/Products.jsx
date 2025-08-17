@@ -28,7 +28,10 @@ export default function Products({ details }) {
                   </span>
                 </div>
                 <p className="text-sm text-gray-500 font-medium mt-3 mb-2">
-                  {cont.year}-{cont.km}km
+                  {cont.year}
+                  {cont.category === "Car" || cont.category === "Bike"
+                    ? `-${cont.km}`
+                    : ""}
                 </p>
                 <p className="text-sm text-gray-500 font-medium mb-2">
                   {cont.name}

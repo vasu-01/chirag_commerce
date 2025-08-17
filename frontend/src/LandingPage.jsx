@@ -291,10 +291,10 @@ export default function LandingPage() {
         {/* last section */}
 
         <div className="bg-[#0668e1] text-white flex justify-center w-377 h-150">
-          <div>
-            <img src="/expire.png" alt="" />
+          <div className="m-auto ">
+            <img src="/homesweethome.png " className="h-130 w-130" alt="" />
           </div>
-          <div>
+          <div className="m-auto p-10">
             <p className=" font-bold text-[45px]  tracking-wide">
               Turn Your Property into Profit-List in Just One Click!
             </p>

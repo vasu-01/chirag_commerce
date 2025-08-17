@@ -145,6 +145,7 @@ export default function UserSignup() {
             type="file"
             name="avatar"
             accept="image/*"
+            placeholder="Upload avatar image"
             onChange={handleChange}
             className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none"
           />
