@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-
+import { Link } from "react-router-dom";
 export default function UserSignup() {
   const navigate = useNavigate();
 
@@ -162,9 +162,9 @@ export default function UserSignup() {
         {/* Login Link */}
         <p className="mt-4 text-center text-gray-600">
           Already have an account?{" "}
-          <a href="/" className="text-blue-600 hover:underline">
+          <Link to="/" className="text-blue-600 hover:underline">
             Login
-          </a>
+          </Link>
         </p>
       </div>
     </div>
